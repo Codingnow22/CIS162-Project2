@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Champagne;
+	src: url(cac_champagne.woff) format('woff'),
+	     url(cac_champagne.ttf) format('ttf');
+}
+         
+/* Grid Styles */
+
+body {
+   display: grid;
+
+}
+
+body > header {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+div#outer {
+    grid-row: 2/5;
+    grid-column: 1;
+    grid-column-gap: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    background-color: darkorchid;
+    outline : 1px dashed black;
+
+}
+
+div#col1 {
+     background-color: aquamarine;
+}
+
+div#col2 {
+    background-color: beige;
+}
+
+div#col3 {
+    background-color: aquamarine;
+}
+
+div#col4 {
+    background-color: beige;
+}
+
+div#col5 {
+    background-color: aquamarine;
+}
+
+div#col6 {
+    background-color: beige;
+}
+
+footer {
+    grid-row: 10;
+    grid-column: 1;
+}
+
+
+/* Page Header Styles */
+body > header > img {
+   display: block;
+   width: 20%;
+}
+
+body > header > nav.horizontalNavigation li {
+   width: 20%;
+}
+
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontalNavigation > ul > li {
+   display: block;
+   float: left;
+}
+
+nav.horizontalNavigation a {
+   background-color: blue;
+   display: block;
+   font-family: "Gill Sans", sans-serif;
+   font-size: 1.5em;
+   line-height: 1.8em;
+   text-align: center;
+    text-decoration: none;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: bisque;
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: darkblue;
+} 
+
+/* Page Header Styles */
+
+footer {
+    text-align: right;
+    background-color: azure;
+}
