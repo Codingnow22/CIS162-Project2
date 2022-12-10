@@ -25,7 +25,6 @@ div#outer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 250px 250px;
-    background-color: darkorchid;
     outline : 1px dashed black;
 }
 
@@ -153,10 +152,7 @@ input#quiry {
     height: 100px;
 }
 
-button[type] {
-    text-align: center;
-    width: 100px;
-}
+
 
 div#buttons {
     text-align: center;
@@ -211,3 +207,30 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+
+div.random {
+    max-width: 600px;
+}
+
+
+
+div.col-sm-4 > p {
+    font-size: 1.2em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #191970;
+    font-weight: 600;
+ 
+}
+
+
+div.col-sm-4 > img {
+    width: 450px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+div.card mb-3 > img {
+    height: 100px;
+}
+
