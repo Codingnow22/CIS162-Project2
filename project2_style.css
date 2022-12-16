@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-         
+
+
 /* Grid Styles */
 
 body {
@@ -234,3 +235,6 @@ div.card mb-3 > img {
     height: 100px;
 }
 
+div.w3-right {
+    padding-top: 10px;
+}
